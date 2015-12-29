@@ -1,4 +1,4 @@
-(defproject com.cemerick/piggieback "0.1.0"
+(defproject net.nanonation/piggieback "0.1.0-SNAPSHOT"
   :description "Adding support for running ClojureScript REPLs over nREPL."
   :url "http://github.com/cemerick/piggieback"
   :license {:name "Eclipse Public License"
@@ -6,7 +6,7 @@
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/tools.nrepl "0.2.3"]
-                 [org.clojure/clojurescript "0.0-1847"]]
+                 [net.nanonation/clojurescript "0.0-2030-SNAPSHOT"]]
   
   :repl-options {:nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}
   
